@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Liste_Produits" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d8060fb6-3fa1-4ecf-9a0a-78bdc4e06158">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<subDataset name="Empty Dataset1" uuid="2a6d4670-a268-4d6c-9bb7-85601cc82b15"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="118" splitType="Stretch">
+			<staticText>
+				<reportElement x="-3" y="10" width="560" height="56" uuid="aeb54bfb-05fc-4188-962c-dcbde8b4a611"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="22"/>
+				</textElement>
+				<text><![CDATA[Listes Des Produits]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-7" y="66" width="564" height="4" uuid="49a11eb8-b96b-4817-b41c-ad64995412fa"/>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="216" splitType="Stretch"/>
+	</detail>
+</jasperReport>
